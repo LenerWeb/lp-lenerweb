@@ -1,0 +1,130 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #6e4b1a;
+    margin: 0;
+    height: 200vh;
+    color: white;
+
+}
+
+.header {
+    position: fixed;
+    background-color: black;
+    box-shadow: 0 0 0.2rem 0.0625rem #a88a61;
+    width: 100%;
+    height: 60px;
+    top: 0;
+
+}
+
+.header-nav {
+    padding: 0.285rem 10rem;
+    /* align-items: center; */
+
+}
+
+.header-nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0;
+    /* padding: 0 1rem; */
+}
+
+.header-nav__link-logo-container {
+    display: flex;
+    width: 40px;
+    /* height: auto; */
+}
+
+.header-nav__link-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.header-nav__menu-list {
+    display: flex;
+    gap: 3rem;
+    padding: 0;
+    list-style: none;
+}
+
+.header-nav__menu-item {
+    display: flex;
+}
+
+.header-nav__menu-link {
+    position: relative;
+    color: #aaaaaa;
+    text-decoration: none;
+    transition: 0.25s;
+    /* height: 3rem; */
+
+}
+
+.header-nav__menu-link--active,
+.header-nav__menu-link:hover {
+    color: white;
+}
+
+.header-nav__menu-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.25rem;
+    width: 0;
+    height: 0.1rem;
+    background-color: #a88a61;
+    transition: 0.25s;
+}
+
+.header-nav__menu-link--active::before,
+.header-nav__menu-link:hover:before {
+    width: 100%;
+}
+
+.main {
+    margin-top: 60px;
+    padding: 1rem;
+}
+
+.header-nav__contact-container {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    /* margin right: 6rem; */
+}
+
+.header-nav__img-container {
+    margin-right: 15px;
+}
+
+.header-nav__img {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #A88A61;
+}
+
+.header-nav__contact-information {
+    display: block;
+}
+
+.header-nav__information-call {
+    margin: 0;
+    font-size: 16px;
+    align-items: flex-start;
+}
+
+.header-nav__information-work {
+    color: #aaaaaa;
+    font-size: 14px;
+    margin: 0 auto;
+    min-width: 9rem;
+}
