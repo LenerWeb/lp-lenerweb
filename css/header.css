@@ -1,14 +1,3 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
-
-.body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #6e4b1a;
-    margin: 0;
-    height: 200vh;
-    color: white;
-
-}
-
 .header {
     position: fixed;
     background-color: black;
@@ -88,11 +77,6 @@
     width: 100%;
 }
 
-.main {
-    margin-top: 60px;
-    padding: 1rem;
-}
-
 .header-nav__contact-container {
     display: flex;
     text-align: left;
@@ -127,4 +111,9 @@
     font-size: 14px;
     margin: 0 auto;
     min-width: 9rem;
+}
+
+.main { /* main de lener */
+    margin-top: 60px; /* main de lener */
+    padding: 1rem; /* main de lener */
 }
