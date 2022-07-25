@@ -9,24 +9,33 @@
 }
 
 .header-nav {
-    padding: 0.285rem 10rem;
-    /* align-items: center; */
+    padding: 0.285rem 2rem;
+    justify-content:space-around;
 
 }
 
 .header-nav__container {
-    display: flex;
+    display:grid;
+    grid-template-columns: 200px 500px 180px;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     max-width: 1024px;
     margin: 0;
     /* padding: 0 1rem; */
 }
 
 .header-nav__link-logo-container {
-    display: flex;
-    width: 70px;
-    /* height: auto; */
+    display: inline-flex;
+    width: 52px;
+    text-decoration: none;
+    color: #A88A61;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 
+    0 0 0.125rem gold,
+    0 0 0.125rem white,
+    0 0 0.125rem gold;
 }
 
 .header-nav__link-logo {
